@@ -1,0 +1,226 @@
+body{
+    background-color:#191D28;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
+   
+}
+.container1{
+  padding:25px;
+}
+
+.telegram-logo{
+    height: 15px;
+    margin-right: 10px;
+    background-color: #3dc6c1;
+
+}
+.color-white{
+    color:#fff;
+   
+}
+.color-gray{
+    color:rgb(95, 93, 93);
+}
+.telegram-logo-text{
+   background-color: #3dc6c1;
+}
+.subText-heading{
+  font-size:32px;
+  font-family: Oswald, sans-serif;
+}
+.drop-down{
+    margin:15px;
+    font-weight:bold
+   
+}
+.drop-toggle{
+   
+    padding:10px 15px;
+    background-color: #2e3241;
+    border:none;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:bold;
+    font-family: Oswald, sans-serif;;
+}
+/* styling for telegram icon */
+.header-telegram-button{
+  background-color:#3DC6C1;
+}
+
+/* styling for switch toggle  */
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+   background-color: #2e3241;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2e3241;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+}
+.switch input { 
+    opacity: 0.5;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #3dc6c1;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  /* styling of footer */
+  .footer-text {
+    color: #888686;
+    white-space: nowrap;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 400; 
+  }
+  .footer-div{
+    border-top:2px solid #ddd;
+    padding:10px 20px 60px;
+    
+  }
+  #footer-to-add{
+    width:100vw;
+    background-color:#191d28;
+    border:solid 1px #191d28;
+    position:fixed;
+    left:0;
+    align-items:center;
+    width:100vw;
+    height:47px;
+    bottom:0;z-index:8
+  }
+/* styling avg-commission */
+.small-box{
+ 
+  width:15%;
+  height:100px;
+  
+  text-align: center;
+  font-weight: bold;
+ 
+}
+.small-box small{
+  font-size:1.3rem;
+  color:rgb(95, 93, 93);
+  font-weight: bold;
+}
+.small-box p{
+  font-size:2rem;
+  color:#3dc6c1;
+}
+.large-box{
+  padding:0px 0px 0px;
+ 
+  width:40%;
+  
+  height:200px;
+  text-align: center;
+ 
+}
+.large-box p{
+  color:#fff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.large-box small {
+  font-size:0.8rem;
+  color:grey;
+  font-weight: bold;
+}
+.inline-block{
+  display: inline-block;
+}
+.align-items-center{
+  display: flex;
+  justify-content: center;
+}
+.table-row{
+
+  
+ 
+}
+.progress-bar-wrapper {
+  height: 25px;
+  width: 25px;
+  margin: 10px; }
+ 
+@media only screen and (max-width: 600px) {
+
+  .large-box{
+    padding:0px 0px 0px;
+    font-weight: 400;
+    width:30%;
+    height:200px;
+    text-align: center;
+   
+  }
+  .small-box{
+ 
+    width:5%;
+    height:100px;
+    
+    text-align: center;
+    
+   
+  }
+  .large-box p{
+    color:#fff;
+    font-size: 1.5rem;
+  }
+  .large-box small {
+    font-size:0.3rem;
+    color:grey;
+  }
+  .small-box small{
+    font-size:0.5rem;
+    color:rgb(95, 93, 93);
+  }
+  .small-box p{
+    font-size:1rem;
+    color:#3dc6c1;
+  }
+  .subText-heading{
+    font-size:10px;
+   
+  }
+}
